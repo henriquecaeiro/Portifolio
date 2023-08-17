@@ -21,6 +21,14 @@ const Menu = [
       category: "Front-End",
       link: "https://github.com/henriquecaeiro/React_Login",
     },
+    {
+      id: 3,
+      image: Work3,
+      title: "TypeScript Notes",
+      category: "Front-End",
+      link: "https://github.com/henriquecaeiro/TypeScript-Notes",
+    },
+
   ];
 
 export default Menu;

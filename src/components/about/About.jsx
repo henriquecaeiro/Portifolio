@@ -21,7 +21,7 @@ const About = () => {
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">HTML/CSS/JS/BOOTSTRAP </h3>
+                <h3 className="skills__name">HTML/CSS/Js/Bootstrap </h3>
                 <span className="skills__number"><i class="fa-solid fa-code"></i></span>
               </div>
 

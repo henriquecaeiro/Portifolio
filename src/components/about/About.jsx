@@ -15,7 +15,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">Profissional de TI com mais de três anos de experiência em desenvolvimento front-end e back-end, especializando-se em PHP e tecnologias web. Com formação em Análise e Desenvolvimento de Sistemas pela Estácio de Sá, possuo uma base sólida em JavaScript, PHP, frameworks modernos e controle de versão utilizando Git e GitHub. Apaixonado por resolver problemas e otimizar processos através de soluções digitais inovadoras.</p>
-            <a href="/Curriculo.pdf" className='btn' download>Baixar CV</a>
+            <a href="/Curriculo.pdf" className='btn' rel="noreferrer" download>Baixar CV</a>
           </div>
 
           <div className="about__skills grid">

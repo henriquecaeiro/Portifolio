@@ -14,15 +14,14 @@ const About = () => {
 
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">Lidando com tecnologia desde a infância percebi a vocação nesse campo, hoje, formado em TI desenvolvo atividades de programador, 2 anos de experiência em Front-end, trabalho também com Back-End.
-Linguagens utilizadas no trabalho JavaScript,JQuery, HTML5/CSS3, conhecimento em MERN STACK, me atualizando em NextJs e TypeScript.</p>
+            <p className="about__description">Profissional de TI com mais de três anos de experiência em desenvolvimento front-end e back-end, especializando-se em PHP e tecnologias web. Com formação em Análise e Desenvolvimento de Sistemas pela Estácio de Sá, possuo uma base sólida em JavaScript, PHP, frameworks modernos e controle de versão utilizando Git e GitHub. Apaixonado por resolver problemas e otimizar processos através de soluções digitais inovadoras.</p>
             <a href="/Curriculo.pdf" className='btn' download>Baixar CV</a>
           </div>
 
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">HTML/CSS/JS </h3>
+                <h3 className="skills__name">HTML/CSS/JS/BOOTSTRAP </h3>
                 <span className="skills__number"><i class="fa-solid fa-code"></i></span>
               </div>
 
@@ -50,6 +49,17 @@ Linguagens utilizadas no trabalho JavaScript,JQuery, HTML5/CSS3, conhecimento em
 
               <div className="skills__bar">
                 <span className="skills__percentage node"></span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">PHP</h3>
+                <span className="skills__number"><i class="fa-brands fa-php"></i></span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage php"></span>
               </div>
             </div>
 

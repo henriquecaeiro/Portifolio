@@ -79,6 +79,11 @@
     background-color: rgb(108, 108, 299);
 }
 
+.php {
+    width: 80%;
+    background-color: rgb(123, 127, 181);
+}
+
 .mongoDb {
     width: 60%;
     background-color: rgb(255, 209, 92);

@@ -40,6 +40,23 @@ const Resume = () => {
                         return null; 
                     })}
                 </div>
+
+                <div className="timeline grid">
+                    {Data.map((val, index) => {
+                        if (val.category === "experience-fullstack") {
+                            return (
+                                <Card key={index}
+                                    icon={val.icon}
+                                    title={val.title}
+                                    year={val.year}
+                                    desc={val.desc}
+                                />
+                            );
+                        }
+                        return null; 
+                    })}
+                </div>
+
             </div>
         </section>
     );

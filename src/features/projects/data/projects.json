@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Rent Price Estimator",
+    "description": "A rent price estimator for properties in Brazil, specifically focused on the city of São Paulo.",
+    "description_pt": "Um estimador de preço de aluguel para imóveis no Brasil, com foco na cidade de São Paulo.",
+    "image": "https://placehold.co/600x400/EEF2FF/1F2A44?text=ML+Forecasting",
+    "url": "https://github.com/henriquecaeiro/brazil-rent-price-estimator",
+    "type": "github",
+    "category": "ml"
+  },
+  {
+    "title": "Ticket Triage Front-End",
+    "description": "The front-end site for the ticket triage model.",
+    "description_pt": "O site front-end para o modelo de triagem de tickets.",
+    "image": "https://placehold.co/600x400/E0E7FF/1F2A44?text=Front+End",
+    "url": "https://effulgent-naiad-81a0da.netlify.app",
+    "type": "site",
+    "category": "frontend"
+  },
+  {
+    "title": "Ticket Triage",
+    "description": "Simple ticket triage NLP for English support tickets. It predicts a queue and flags low-confidence cases.",
+    "description_pt": "Triagem simples de tickets com NLP para tickets de suporte em inglês. Ele prevê a fila e sinaliza casos com baixa confiança.",
+    "image": "https://placehold.co/600x400/E0E7FF/1F2A44?text=Front+End",
+    "url": "https://github.com/henriquecaeiro/ticket-triage",
+    "type": "github",
+    "category": "ml"
+  },
+  {
+    "title": "Fraud Detection",
+    "description": "Autoencoder-based anomaly detection for fraud in transaction data. Focuses on reconstruction error to flag unusual transactions.",
+    "description_pt": "Detecção de anomalias baseada em autoencoder para fraude em dados de transações. Foca no erro de reconstrução para sinalizar transações incomuns.",
+    "image": "https://placehold.co/600x400/EFF6FF/1F2A44?text=ML+Analytics",
+    "url": "https://github.com/henriquecaeiro/fraud_detection",
+    "type": "github",
+    "category": "ml"
+  },
+  {
+    "title": "Sentiment Analysis",
+    "description": "A simple model to analyse coments and return the sentiment from this coments.",
+    "description_pt": "Um modelo simples para analisar comentários e retornar o sentimento desses comentários.",
+    "image": "https://placehold.co/600x400/F8FAFC/1F2A44?text=Machine+Learning",
+    "url": "https://github.com/henriquecaeiro/sentiment-analysis",
+    "type": "github",
+    "category": "ml"
+  },
+  {
+    "title": "Simple E-commerce",
+    "description": "A e-commerce made with PHP. The system supports operations such as saving and retrieving data, handling GraphQL queries and mutations, and managing the association of additional data such as images, prices, and attributes. The back-end is implemented in PHP using PDO for database interactions and follows PSR standards and Object-Oriented Programming (OOP) principles.",
+    "description_pt": "Um e-commerce feito com PHP. O sistema suporta operações como salvar e recuperar dados, lidar com queries e mutations GraphQL e gerenciar a associação de dados adicionais como imagens, preços e atributos. O back-end é implementado em PHP usando PDO para interações com o banco de dados e segue padrões PSR e princípios de Programação Orientada a Objetos (OOP).",
+    "image": "https://placehold.co/600x400/F1F5F9/1F2A44?text=PHP",
+    "url": "https://github.com/henriquecaeiro/ecommerce-project-scandiweb",
+    "type": "github",
+    "category": "backend"
+  },
+  {
+    "title": "TypeScript Notes",
+    "description": "A simple notes app.",
+    "description_pt": "Um app simples de notas.",
+    "image": "https://placehold.co/600x400/F8FAFC/1F2A44?text=TypeScript+React",
+    "url": "https://mynotes-typescript-react.netlify.app",
+    "type": "site",
+    "category": "frontend"
+  }
+]

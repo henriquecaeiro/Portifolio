@@ -1,10 +1,17 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
 import "./About.css"
 import Image from "../../assets/avatar-2.svg"
 import AboutBox from './AboutBox'
 
 
 const About = () => {
+  const { i18n } = useTranslation();
+  const language = i18n.language || "en";
+  const isEnglish = language.startsWith("en");
+  const baseUrl = import.meta.env.BASE_URL || "/";
+  const cvHref = `${baseUrl}${isEnglish ? "CV_EN.pdf" : "CV_PT.pdf"}`;
+
   return (
     <section className="about container section" id='about'>
       <h2 className="section__title">Sobre mim</h2>
@@ -15,7 +22,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">Profissional de TI com mais de três anos de experiência em desenvolvimento front-end e back-end, especializando-se em PHP e tecnologias web. Com formação em Análise e Desenvolvimento de Sistemas pela Estácio de Sá, possuo uma base sólida em JavaScript, PHP, frameworks modernos e controle de versão utilizando Git e GitHub. Apaixonado por resolver problemas e otimizar processos através de soluções digitais inovadoras.</p>
-            <a href="/Curriculo.pdf" className='btn' rel="noreferrer" download>Baixar CV</a>
+            <a href={cvHref} className='btn' rel="noreferrer" download>Baixar CV</a>
           </div>
 
           <div className="about__skills grid">

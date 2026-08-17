@@ -21,7 +21,6 @@ export default {
     githubCta: "GitHub",
     linkedinCta: "LinkedIn",
     contactCta: "Contact Me",
-    cvCta: "Download CV",
     photoAlt: "Portrait of Henrique Caeiro, AI and Machine Learning Engineer",
     highlightOneTitle: "AI systems, not demos",
     highlightOneDesc: "Models, retrieval, APIs and evaluation in the same loop.",
@@ -131,7 +130,6 @@ export default {
       "I am a software engineer applying that production background to machine learning, LLMs and RAG. I care about systems that survive contact with real data, APIs and users — not only notebooks.",
       "Full-stack experience is a complement, not the headline: it is how models become products. I am directing my career toward AI Engineering, with a strong interest in retrieval, evaluation and backend design for intelligent systems.",
     ],
-    cv: "Download CV",
   },
   mindset: {
     eyebrow: "How I work",
@@ -163,7 +161,6 @@ export default {
     email: "Email",
     github: "GitHub",
     linkedin: "LinkedIn",
-    cv: "Curriculum vitae",
   },
   footer: {
     rights: "Henrique Caeiro",

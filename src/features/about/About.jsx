@@ -3,11 +3,9 @@ import Container from "../../shared/ui/Container";
 import SectionHeader from "../../shared/ui/SectionHeader";
 
 const About = () => {
-  const { t, i18n } = useTranslation();
-  const isEnglish = (i18n.language || "en").startsWith("en");
+  const { t } = useTranslation();
   const paragraphs = t("about.body", { returnObjects: true });
   const body = Array.isArray(paragraphs) ? paragraphs : [paragraphs];
-  const cvHref = `${import.meta.env.BASE_URL}${isEnglish ? "CV_EN.pdf" : "CV_PT.pdf"}`;
 
   return (
     <section id="about" className="section">
@@ -32,9 +30,6 @@ const About = () => {
               {paragraph}
             </p>
           ))}
-          <a className="secondary-button" href={cvHref} download>
-            {t("about.cv")}
-          </a>
         </div>
       </Container>
     </section>

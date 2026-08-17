@@ -21,7 +21,6 @@ export default {
     githubCta: "GitHub",
     linkedinCta: "LinkedIn",
     contactCta: "Falar comigo",
-    cvCta: "Baixar CV",
     photoAlt: "Retrato de Henrique Caeiro, engenheiro de IA e Machine Learning",
     highlightOneTitle: "Sistemas de IA, não demos",
     highlightOneDesc: "Modelos, retrieval, APIs e avaliação no mesmo ciclo.",
@@ -130,7 +129,6 @@ export default {
       "Sou engenheiro de software aplicando essa base de produção a machine learning, LLMs e RAG. Me importo com sistemas que sobrevivem a dados reais, APIs e usuários — não só notebooks.",
       "A experiência full-stack é complemento, não o título: é assim que modelos viram produto. Estou direcionando a carreira para AI Engineering, com interesse forte em retrieval, avaliação e backend para sistemas inteligentes.",
     ],
-    cv: "Baixar CV",
   },
   mindset: {
     eyebrow: "Como trabalho",
@@ -162,7 +160,6 @@ export default {
     email: "E-mail",
     github: "GitHub",
     linkedin: "LinkedIn",
-    cv: "Currículo",
   },
   footer: {
     rights: "Henrique Caeiro",

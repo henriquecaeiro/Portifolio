@@ -5,9 +5,7 @@ import { social } from "../../shared/content/social";
 import Container from "../../shared/ui/Container";
 
 const Contact = () => {
-  const { t, i18n } = useTranslation();
-  const isEnglish = (i18n.language || "en").startsWith("en");
-  const cvHref = `${import.meta.env.BASE_URL}${isEnglish ? "CV_EN.pdf" : "CV_PT.pdf"}`;
+  const { t } = useTranslation();
 
   const channels = [
     {
@@ -48,9 +46,6 @@ const Contact = () => {
                 {t("contact.subtitle")}
               </p>
               <p className="text-sm text-muted">{social.location}</p>
-              <a className="secondary-button" href={cvHref} download>
-                {t("contact.cv")}
-              </a>
             </div>
 
             <ul className="space-y-4">

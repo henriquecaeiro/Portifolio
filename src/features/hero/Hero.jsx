@@ -3,9 +3,7 @@ import { social } from "../../shared/content/social";
 import Container from "../../shared/ui/Container";
 
 const Hero = () => {
-  const { t, i18n } = useTranslation();
-  const isEnglish = (i18n.language || "en").startsWith("en");
-  const cvHref = `${import.meta.env.BASE_URL}${isEnglish ? "CV_EN.pdf" : "CV_PT.pdf"}`;
+  const { t } = useTranslation();
 
   return (
     <section id="home" className="section relative overflow-hidden pt-16 md:pt-20">
@@ -47,10 +45,6 @@ const Hero = () => {
               {t("hero.contactCta")}
             </a>
           </div>
-
-          <a className="inline-flex text-sm text-muted underline-offset-4 hover:text-sage-300 hover:underline" href={cvHref} download>
-            {t("hero.cvCta")}
-          </a>
 
           <div className="grid max-w-xl gap-6 border-t border-line pt-6 sm:grid-cols-2">
             <div>

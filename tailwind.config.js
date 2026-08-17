@@ -4,32 +4,41 @@ export default {
   theme: {
     extend: {
       colors: {
+        bg: "#0A0C0B",
+        surface: "#121614",
+        "surface-2": "#181C19",
+        line: "rgba(199, 214, 204, 0.12)",
         ink: {
-          900: "#0B1220",
-          800: "#141B2C",
-          700: "#1B2440",
+          900: "#F3F6F3",
+          800: "#D7DDD8",
+          700: "#A7B0AA",
+        },
+        muted: "#9AA59E",
+        sage: {
+          200: "#D5E4D8",
+          300: "#B7CDBD",
+          400: "#9FBFB0",
+          500: "#86A994",
         },
         mist: {
-          100: "#F5F7FF",
-          200: "#EEF2FF",
-        },
-        indigo: {
-          400: "#6366F1",
-          500: "#4F46E5",
-          600: "#4338CA",
+          100: "#0A0C0B",
+          200: "#121614",
         },
       },
       fontFamily: {
-        display: ["Space Grotesk", "sans-serif"],
-        body: ["Plus Jakarta Sans", "sans-serif"],
+        display: ["Syne", "ui-sans-serif", "system-ui", "sans-serif"],
+        body: ["IBM Plex Sans", "ui-sans-serif", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        soft: "0 20px 60px rgba(15, 23, 42, 0.08)",
-        glow: "0 18px 50px rgba(79, 70, 229, 0.25)",
+        soft: "0 24px 80px rgba(0, 0, 0, 0.35)",
+        glow: "0 0 80px rgba(159, 191, 176, 0.12)",
       },
       backgroundImage: {
         "hero-grid":
-          "linear-gradient(transparent 0, rgba(79, 70, 229, 0.05) 1px, transparent 1px), linear-gradient(90deg, transparent 0, rgba(79, 70, 229, 0.05) 1px, transparent 1px)",
+          "linear-gradient(transparent 0, rgba(159, 191, 176, 0.05) 1px, transparent 1px), linear-gradient(90deg, transparent 0, rgba(159, 191, 176, 0.05) 1px, transparent 1px)",
+      },
+      maxWidth: {
+        content: "72rem",
       },
     },
   },
